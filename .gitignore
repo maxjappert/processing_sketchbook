@@ -1,0 +1,32 @@
+# Processing project files #
+############################
+*.pde
+
+# Ignore all binary files #
+###########################
+*.class
+*.jar
+
+# Ignore specific directories #
+###############################
+export/
+application.windows*/
+application.linux*/
+application.macosx*/
+
+# Ignore frames or any other specific files #
+#############################################
+frames/
+*.tif
+*.tiff
+*.mov
+*.avi
+*.mp4
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+
